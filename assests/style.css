@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 0 12%;
+}
+
+#side_menu1,
+#side_menu2,
+#side_menu3,
+#side_menu4,
+#side_menu5,
+#side_menu6 {
+    display: none;
+}
+
+#main-menu {
+    display: flex;
+
+}
+
+#main-menu li a {
+    color: #151515;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-weight: 500;
+
+}
+
+.logo a {
+    color: #151515;
+    font-size: 12.23px !important;
+
+}
+
+#main-menu li {
+    padding: 0.5rem 1rem;
+}
+
+#main-menu li a {
+    color: #151515;
+}
+
+#main-menu {
+    margin: 0px 21px;
+}
+
+nav {
+    display: flex;
+}
+
+.icons {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons a {
+
+    color: #151515;
+    margin-bottom: 17px;
+
+}
+
+.icons a i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container2 {
+
+    margin: 50px 12%;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    height: 472px;
+
+
+}
+
+.container2 .left {
+    width: 65%;
+    height: 402px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.left img {
+    width: 100%;
+}
+
+.container2 .right {
+    width: 35%;
+    height: 402px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px;
+    justify-content: space-between;
+
+
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 370px;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.right .box1 {
+    background-color: #69ACF1;
+}
+
+.right .box2 {
+    background-color: #0EC4A3;
+
+}
+
+.right .box3 {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #e2e2e2;
+    ;
+    border: 1px solid #DADADA;
+
+}
+
+.box3 a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b3l {
+    margin-right: 25px;
+}
+
+.b3r h2 {
+    font-size: 16px;
+}
+
+.b3r p {
+    font-size: 20px;
+}
+
+.right .box3 a {
+    color: #151515;
+}
+
+.right .box2 a,
+.right .box1 a {
+    color: white;
+}
+
+
+
+
+.right h2 {
+    display: inline-block;
+}
+
+@media (max-width:576px) {
+
+    header {
+        padding: 10px 0;
+    }
+
+    .container {
+        margin: 0 6%;
+    }
+
+    .container2 {
+        margin: 10px 6%;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .left {
+        width: 100%;
+
+        margin: 30px 0;
+    }
+
+    .container2 .right {
+        width: 100%;
+    }
+
+    .right .box1,
+    .box2,
+    .box3 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #main-menu,
+    #eye {
+        display: none;
+    }
+
+    .icons {
+        position: relative;
+    }
+
+    #lang {
+
+
+        position: absolute;
+        right: 0px;
+        bottom: -25px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+
+
+    header {
+        padding: 10px 0;
+    }
+
+    .container {
+        margin: 0 12%;
+    }
+
+
+    .container2 {
+        margin: 10px 12%;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .left {
+        width: 100%;
+
+        margin: 30px 0;
+    }
+
+    .container2 .right {
+        width: 100%;
+    }
+
+    .right .box1,
+    .box2,
+    .box3 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #main-menu,
+    #eye {
+        display: none;
+    }
+
+    .icons {
+        position: relative;
+    }
+
+    #lang {
+
+
+        position: absolute;
+        right: 0px;
+        bottom: -25px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+
+    header {
+        padding: 10px 0;
+    }
+
+    .container {
+        margin: 0 12%;
+    }
+
+
+    .container2 {
+        margin: 10px 12%;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .container2 .left {
+        width: 100%;
+
+        margin: 30px 0;
+    }
+
+    .container2 .right {
+        width: 100%;
+    }
+
+    .right .box1,
+    .box2,
+    .box3 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #main-menu,
+    #eye {
+        display: none;
+    }
+
+    .icons {
+        position: relative;
+    }
+
+    #lang {
+
+
+        position: absolute;
+        right: 0px;
+        bottom: -25px;
+    }
+}
